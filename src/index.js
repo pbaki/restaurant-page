@@ -1,17 +1,14 @@
 import './style.css';
+import home from './home';
 
  function component() {
    const element = document.createElement("div");
 
-   element.innerHTML = "aaaaaa";
-
    return element;
  }
- 
-document.body.appendChild(component())
+ home();
 
 
 
 
 
-console.log("tyrtyrtyrty");
