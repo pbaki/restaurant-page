@@ -10,11 +10,12 @@ const menu = () => {
     menuButton.innerHTML = "Menu";
     const contactButton = document.createElement("button");
     contactButton.innerHTML = "HContact";
+    
     buttonContainer.appendChild(homeButton);
     buttonContainer.appendChild(menuButton);
     buttonContainer.appendChild(contactButton);
 
-    //content in container
+    //container for content
     const contentContainer = document.createElement("div");
     contentContainer.classList.add("contentContainer");
 

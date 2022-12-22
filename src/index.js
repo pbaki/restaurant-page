@@ -1,14 +1,20 @@
 import './style.css';
 import home from './home';
 import menu from "./menu";
+import contact from "./contact"
 
- function component() {
-   const element = document.createElement("div");
 
-   return element;
+
+ function render() {
+    home();
+ 
+
+
+   return "asd";
  }
- home();
+ render();
  menu();
+ contact();
 
 
 
