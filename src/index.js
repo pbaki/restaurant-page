@@ -1,5 +1,6 @@
 import './style.css';
 import home from './home';
+import menu from "./menu";
 
  function component() {
    const element = document.createElement("div");
@@ -7,6 +8,7 @@ import home from './home';
    return element;
  }
  home();
+ menu();
 
 
 
