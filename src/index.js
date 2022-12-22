@@ -1,20 +1,17 @@
 import './style.css';
-import home from './home';
-import menu from "./menu";
-import contact from "./contact"
-
+import home from "./home";
+import buttons from "./buttons";
 
 
  function render() {
+    const element = document.getElementById("content");
+    buttons()
     home();
- 
+    
 
-
-   return "asd";
+   return element;
  }
  render();
- menu();
- contact();
 
 
 

@@ -1,19 +1,9 @@
 
 
 const contact = () => {
-    //buttons in container
-    const element = document.getElementById("content");
-    const buttonContainer = document.createElement("div");
-    const homeButton = document.createElement("button");
-    homeButton.innerHTML = "Home";
-    const menuButton = document.createElement("button");
-    menuButton.innerHTML = "Menu";
-    const contactButton = document.createElement("button");
-    contactButton.innerHTML = "HContact";
 
-    buttonContainer.appendChild(homeButton);
-    buttonContainer.appendChild(menuButton);
-    buttonContainer.appendChild(contactButton);
+    const element = document.getElementById("content");
+
 
     //container for content
     const contentContainer = document.createElement("div");
@@ -65,7 +55,6 @@ const contact = () => {
     contentContainer.appendChild(contact2);
     contentContainer.appendChild(contact3);
 
-    element.appendChild(buttonContainer);
     element.appendChild(contentContainer);
 
     return element;

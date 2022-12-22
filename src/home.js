@@ -1,18 +1,7 @@
 
 const home = () => {
-    //buttons in container
     const element = document.getElementById("content");
-    const buttonContainer = document.createElement("div");
-    const homeButton = document.createElement("button");
-    homeButton.innerHTML = "Home";
-    const menuButton = document.createElement("button");
-    menuButton.innerHTML = "Menu";
-    const contactButton = document.createElement("button");
-    contactButton.innerHTML = "HContact";
-
-    buttonContainer.appendChild(homeButton);
-    buttonContainer.appendChild(menuButton);
-    buttonContainer.appendChild(contactButton);
+    
 
     //container for content
     const contentContainer = document.createElement("div");
@@ -75,7 +64,6 @@ const home = () => {
 
 
 
-    element.appendChild(buttonContainer);
     element.appendChild(contentContainer);
 
 
